@@ -16,7 +16,6 @@ function checksIfTheGuessHasAValidValue(kick) {
       <div class="message-sucess">
         <h2>Você acertou!</h2>
         <h3>O número secreto era ${secretNumber}!</h3>
-        <h4>Recarregue a página para jogar novamente!</h4>
         <img id="img-sucess" src="../images/confetti-40.webp" alt="acertou" />
         <button id="playAgain">Jogar novamente</button>
       </div>
