@@ -8,8 +8,6 @@ elementLargerValue.innerHTML = largerValue;
 
 const secretNumber = generateNumberRandom();
 
-console.log(secretNumber);
-
 function generateNumberRandom() {
   return parseInt(Math.random() * largerValue + 1);
 }
